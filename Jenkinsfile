@@ -8,7 +8,7 @@ pipeline{
             echo 'not using shell within Jenkinsfile'
             echo 'Hello World'
             echo 'Hello everyone'
-            echo 'Hi'
+            echo 'Hi there!'
            }
        }
     }
