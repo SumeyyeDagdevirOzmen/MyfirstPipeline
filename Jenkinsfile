@@ -11,5 +11,13 @@ pipeline{
             echo 'Hi there!!!!'
            }
        }
+        stage('test'){
+            steps{  
+          echo "Welcome to Jenkins Environment"
+            sh'echo using shell within Jenkinsfile'
+            echo 'not using shell within Jenkinsfile'
+           echo 'Goood Morning!'
+           }
+       }
     }
 }
